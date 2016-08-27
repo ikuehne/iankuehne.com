@@ -22,3 +22,4 @@ cabal.project.local
 .HTF/
 _site
 _cache
+deploy

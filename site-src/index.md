@@ -1,3 +1,3 @@
 ---
-title: Welcome to the website.
+title: "Posts:"
 ---
