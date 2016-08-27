@@ -1,0 +1,144 @@
+$theme-color: #CDC;
+$transition-time: 0.3s;
+
+ 
+h1:hover, h2:hover, h3:hover, h4:hover
+    cursor: default
+
+html
+    font-family: georgia
+    font-style: serif
+    margin: 0
+    padding: 0
+
+.post-title
+    padding-top: 1em
+    font-size: 175%
+
+.page
+    width: 800px
+    margin: 0 auto
+
+.page hr
+    border: 0
+    border-bottom: dashed #DDD 1px
+
+.post-list ul
+    font-size: 105%
+    padding-left: 0
+    list-style: none
+
+.post-list ul li
+    margin-top: 0.5em
+    margin-bottom: 0.5em
+
+.post-list hr
+    border-bottom: dotted #DDD 1px
+
+.post-list .listitem
+    padding-left: 1em
+
+a
+    text-decoration: none
+
+h1
+    font-size: 175%
+    color: #666
+    line-height: 150%
+    margin: 0
+
+h1:after
+    content: " "
+    display: block
+    border: 0
+    border-bottom: dotted #DDD 1px
+    padding-top: 0.5em
+    padding-bottom: 0
+    margin: 0
+
+h2
+    font-size: 150%
+    line-height: 150%
+    color: #666
+
+h3
+    font-size: 125%
+    line-height: 150%
+    color: #666
+
+h4
+    font-size: 100%
+    line-height: 150%
+    color: #666
+
+body
+    margin: 0
+
+p
+    margin: 0
+    line-height: 150%
+    font-size: 115%
+    padding-bottom: 1em
+    text-indent: 0em
+
+h1 a, h2 a, h3 a, h4 a, body a
+    color: #888
+    transition: color ease-in $transition-time
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, body a:hover, .header a:hover
+    color: $theme-color
+    transition: color ease-in $transition-time
+
+.header
+    line-height: 1em
+
+.header ul
+    padding-left: 0
+    list-style: none
+
+.header li
+    font-size: 140%
+    float: left
+    padding-right: 3.2em
+    top: 50%
+
+.title
+    font-size: 125%
+
+.header li a
+    color: #888
+    transition: color ease-in $transition-time
+
+.banner
+    padding-bottom: 1em
+    width: 100%
+    background-color: $theme-color
+
+.footer
+    color: #AAA
+    text-align: center
+    padding-bottom: 3em
+
+.footer, .footer a
+    color: #AAA
+    text-align: center
+
+.footer:hover
+    cursor: default
+
+.sourceCode
+    font-size: 105%
+    padding: 0.3em
+    padding-left: 1em
+    margin-bottom: 1em
+    border-left: 5px solid $theme-color
+    background-color: #F8F8F8
+    .sourceCode
+        padding: 0em
+        background-color: none
+        border: none
+
+.sourceCode
+    background-color: none
+
+
